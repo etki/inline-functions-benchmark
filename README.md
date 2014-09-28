@@ -6,6 +6,8 @@ C-style inline functions patching. The results i got showed improvement from
 framework) in three different cases on PHP 5.5.9 and Lubuntu x64 14.04.1. You
 can measure it yourself:
 
+  [athletic]: https://packagist.org/packages/athletic/athletic
+
 # Usage
 
 1. `git clone https://github.com/etki/inline-functions-benchmark.git`
