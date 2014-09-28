@@ -48,6 +48,7 @@ class InlineFunctionsEvent extends AthleticEvent
     }
     /**
      * @iterations 10000
+     * @group assert
      */
     public function slowAssertRun()
     {
@@ -55,6 +56,7 @@ class InlineFunctionsEvent extends AthleticEvent
     }
     /**
      * @iterations 10000
+     * @group assert
      */
     public function fastAssertRun()
     {
@@ -62,6 +64,7 @@ class InlineFunctionsEvent extends AthleticEvent
     }
     /**
      * @iterations 10000
+     * @group exception
      */
     public function slowExceptionRun()
     {
@@ -73,6 +76,7 @@ class InlineFunctionsEvent extends AthleticEvent
     }
     /**
      * @iterations 10000
+     * @group exception
      */
     public function fastExceptionRun()
     {
@@ -84,6 +88,7 @@ class InlineFunctionsEvent extends AthleticEvent
     }
     /**
      * @iterations 10000
+     * @group calculation
      */
     public function slowCalculation()
     {
@@ -91,6 +96,7 @@ class InlineFunctionsEvent extends AthleticEvent
     }
     /**
      * @iterations 10000
+     * @group calculation
      */
     public function fastCalculation()
     {

@@ -15,6 +15,6 @@
         }
     },
     "require": {
-        "athletic/athletic": "~0.1.8"
+        "athletic/athletic": "~0.1"
     }
 }
