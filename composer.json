@@ -1,0 +1,20 @@
+{
+    "name": "etki/inline-functions-benchmark",
+    "description": "A small package to benchmark c-style inline placement of code versus separate method calls",
+    "authors": [
+        {
+            "name": "Etki",
+            "email": "etki@etki.name",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Etki\\InlineFunctionsBenchmark\\": "src/",
+            "Etki\\InlineFunctionsBenchmark\\Benchmarks\\": "benchmarks/"
+        }
+    },
+    "require": {
+        "athletic/athletic": "~0.1.8"
+    }
+}
