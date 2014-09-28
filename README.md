@@ -15,3 +15,4 @@ can measure it yourself:
 3. `composer install`
 4. `vendor/bin/athletic -p benchmarks -b vendor/autoload.php`
 5. Watch results, add your own test cases
+6. Don't forget it's synthetic
